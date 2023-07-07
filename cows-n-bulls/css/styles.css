@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(224, 224, 224);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 150%;
+}
+
+p {
+  padding-top: 5px;
+}
+
+ol li {
+  padding-top: 10px;
+}
+
+.container {
+  display: flex;
+  margin: 5%;
+  flex-direction: column;
+  background-color: white;
+  padding: 2%;
+  border-radius: 1%;
+}
+
+.header {
+  text-align: center;
+}
+
+.main {
+  text-align: justify;
+}
+
+.footer {
+  align-items: flex-end;
+  text-align: center;
+}
