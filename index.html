@@ -9,42 +9,128 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Shashank Sapre</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>About Me</h1>
+        <div class="navigation">
+          <ul>
+            <li>ABOUT</li>
+          </ul>
+          <ul>
+            <li>PROJECTS</li>
+          </ul>
+          <ul>
+            <li>CONTACT</li>
+          </ul>
+        </div>
+        <div class="banner">
+          <div class="selfie">
+            <img src="./img/dp.jpg" class="dp" />
+          </div>
+          <div class="about-me">
+            <p>Hello, my name is</p>
+            <h1>Shashank Sapre</h1>
+            <p>
+              I am a software developer with over 9 years of experience working
+              in the IT Industry. Throughout these years I have worked with
+              backend technologies, products, and frameworks. I have had
+              experience in building REST APIs with NodeJS, Layer 7 & Kong API
+              Gateway, etc. I just recently starting dabbling in frontend
+              technologies/frameworks
+            </p>
+          </div>
+        </div>
       </header>
       <main>
-        <section>
-          <h2>Introduction</h2>
-          <p>
-            Hello, I'm Shashank Sapre. I am a passionate software developer with
-            interests in backend technologies like Serverside Javascript
-            frameworks, API Gateway, containerisation, etc. and just recently
-            starting dabbling in frontend.
-          </p>
-        </section>
-        <section>
-          <h2>Experience</h2>
-          <p>
-            I have 9 years of experience working in the software development
-            industry.
-          </p>
-        </section>
-        <section>
-          <h2>Educational Background</h2>
-          <p>I hold a B.E. in Mechanical Engineering from RTMNU.</p>
-        </section>
-        <section>
-          <h2>Interests and Hobbies</h2>
-          <p>
-            When I'm not coding, I enjoy reading novels, watching anime, and
-            making memes.
-          </p>
-        </section>
+        <div class="content-light">
+          <div class="heading">
+            <h2>Tech Overview</h2>
+            <h3>
+              Here's a list of languages, frameworks, technologies, and tools I
+              use or have worked with
+            </h3>
+          </div>
+          <div class="display-row">
+            <div class="display-card">
+              <div class="front-end">
+                <p style="font-size: 1.5em">&lt;/&gt;</p>
+              </div>
+              <h3>Frontend/Mobile</h3>
+              <ul>
+                <li>Javascript</li>
+                <li>ReactJS</li>
+                <li>React Native</li>
+              </ul>
+            </div>
+            <div class="display-card">
+              <div class="back-end">
+                <i class="bi-server" style="font-size: 1.5em"></i>
+              </div>
+              <h3>Backend</h3>
+              <ul>
+                <li>Javascript</li>
+                <li>NodeJS</li>
+                <li>Layer7 API Gateway</li>
+                <li>Java</li>
+                <li>Kong API Gateway</li>
+                <li>Lua</li>
+                <li>MongoDB</li>
+              </ul>
+            </div>
+            <div class="display-card">
+              <div class="others">
+                <i class="bi-tools" style="font-size: 1.5em"></i>
+              </div>
+              <h3>Others</h3>
+              <ul>
+                <li>VS Code</li>
+                <li>Postman</li>
+                <li>Unit Testing</li>
+                <li>FluxCD</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="content-dark">
+          <div class="heading">
+            <h2>Certifications</h2>
+          </div>
+          <div class="display-row">
+            <img src="./img/kong.png" />
+          </div>
+        </div>
+        <div class="content-light">
+          <div class="heading">
+            <h2>Projects</h2>
+            <h3>Here's a list of personal projects I have worked on.</h3>
+          </div>
+          <div class="display-row">
+            <div class="display-card">
+              <h3>Cows and Bulls (Mobile Game)</h3>
+              <p>
+                Cows and Bulls is an English language word puzzle where player
+                has to guess the word selected by the game based on hints in a
+                set number of moves.
+              </p>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.sssapre.cowsnbulls"
+                target="_blank"
+                title="Cows and Bulls on PlayStore"
+                ><img
+                  src="https://www.freepnglogos.com/uploads/play-store-logo-png/play-store-logo-nisi-filters-australia-11.png"
+                  width="200"
+                  alt="play store logo black background hd picture"
+              /></a>
+            </div>
+          </div>
+        </div>
       </main>
       <footer>
         <div class="row social">
@@ -91,4 +177,9 @@
       </footer>
     </div>
   </body>
+  <script
+    type="text/javascript"
+    async
+    src="//cdn.credly.com/assets/utilities/embed.js"
+  ></script>
 </html>
