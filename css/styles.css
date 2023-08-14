@@ -138,6 +138,31 @@ header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     flex: 100%;
   }
+
+  footer {
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid blue; */
+    background-color: rgb(1, 106, 204);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .social {
+    padding: 10px;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+    flex: 100%;
+  }
+
+  footer p {
+    flex: 100%;
+  }
 }
 
 .selfie {
